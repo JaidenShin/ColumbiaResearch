@@ -16,7 +16,7 @@ It is also possible to replace the Gumbel variable at each edge with $N$ i.i.d. 
 
 If we set $N = m^\alpha$, convergence is dependent on $\alpha > \alpha_c$, where $\alpha_c$ is some constant. We ran simulations to bound the value of $\alpha_c$. 
 
-## Superpermutations
+## Superpermutations:
 Given an integer $n$, strings may be constructed given an alphabet $1$ to $n$ inclusive. The basis of the 
 superpermutation problem is to find the minimal-length string that contains all $n!$ permutations of $1$ through $n$ in the string. 
 There are two possible interpretations.
@@ -29,7 +29,7 @@ In this version, for a permutation to "appear" in a string, it needs to appear a
 
 An example of a optimal construction for $n=4$ of length $33$ is $123412314231243121342132413214321$. 
 
-We 
+We read through existing literature that utilized a graph-theoretical approach. 
 
 ### Continuous Version:
 
@@ -38,3 +38,8 @@ This is not as well known, with most of the existing work being spread out among
 In this version, for a permutation to "appear" in a string, it needs to appear as a sequence of characters from left to right, but not necessarily as a contiguous block. For example, the permutation 12345 exists in the string **1**3**2**54**34**21**5**.
 
 An example of an optimal construction for $n=4$ of length $12$ is $123412314231$.
+
+We independently constructed an upper bound of length $n^2-2n+4$. 
+
+## 2D Paths:
+
