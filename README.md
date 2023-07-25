@@ -16,6 +16,9 @@ It is also possible to replace the Gumbel variable at each edge with $N$ i.i.d. 
 
 If we set $N = m^\alpha$, convergence is dependent on $\alpha > \alpha_c$, where $\alpha_c$ is some constant. We ran simulations to bound the value of $\alpha_c$. 
 
+## 2d Paths problem
+Within a lattice grid, each edge is assigned a random variable that acts as an "alarm clock". Whenever an edge's "alarm clock" goes off, we swtich the two associated vertices. We are particularly intersted in the point at the origin. We use comptuational simulations to motivate answers to certain properites of this point, including whether the velocity of the point converges and whether the point is contained within a certain region. 
+
 ## Superpermutations:
 Given an integer $n$, strings may be constructed given an alphabet $1$ to $n$ inclusive. The basis of the 
 superpermutation problem is to find the minimal-length string that contains all $n!$ permutations of $1$ through $n$ in the string. 
