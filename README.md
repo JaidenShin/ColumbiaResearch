@@ -43,6 +43,3 @@ In this version, for a permutation to "appear" in a string, it needs to appear a
 An example of an optimal construction for $n=4$ of length $12$ is $123412314231$.
 
 We independently constructed an upper bound of length $n^2-2n+4$. 
-
-## 2D Paths:
-
